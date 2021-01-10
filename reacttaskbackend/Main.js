@@ -21,7 +21,6 @@ db.connect(function(err) {
 	if (err) {
 		console.log("DB Error!");
 		throw err;
-		return false;
 	}
 });
 
